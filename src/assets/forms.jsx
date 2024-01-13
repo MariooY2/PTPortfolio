@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const obj=import.meta.env
-console.log(obj);
 
 const ContactUs = () => {
   const form = useRef();
