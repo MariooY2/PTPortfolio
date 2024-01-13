@@ -58,12 +58,13 @@ const ContactUs = () => {
 
   return (
     <div>
-      <div className="color" id="Contact">
+      <div className="color" >
         <div className="disp">
-          <h1>
-            <span className="highlight">Start </span>Your Journey Now{" "}
+          
+          <h1 className="smalll">
+            <span className="highlight ">Start </span>Your Journey Now{" "}
           </h1>
-          <h1>
+          <h1 className="smalll">
             Get Started with a <span className="highlight">FREE SESSION</span>
           </h1>
         </div>
@@ -75,7 +76,7 @@ const ContactUs = () => {
                 <div className="mt-4"></div>
 
                 <div className="textcontainer2 disp">
-                  <h2 className="blue mb-3">
+                  <h2 className="white mb-3">
                     One Free <span className="white">Workout</span>
                   </h2>
                   <p className="white">
@@ -99,7 +100,7 @@ const ContactUs = () => {
                   <h4 className="signature">Riad Katrib</h4>
                 </div>
               </div>
-              <div className="form-container white">
+              <div className="form-container white" id="Contact">
                 {emailSent ? (
                   <div className="success-animation">
                     Email successfully sent!
@@ -159,8 +160,8 @@ const ContactUs = () => {
         </div>
       </div>
       <div className="wid">
-        <h3 className="number">+41 78 309 83 73</h3>
-        <div className="call">
+        <h3 className="number smalll">+41 78 309 83 73</h3>
+        <div className="call smalll">
           Call Me <span className="highlight">Today</span>
         </div>
       </div>

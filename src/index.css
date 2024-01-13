@@ -52,7 +52,7 @@ html {
   bottom: 0;
   left: 0;
   background-image: url("../public/Gallery/r1.jpg"); /* Your image path */
-  filter: brightness(10%); /* Apply the filter to the pseudo-element */
+  filter: brightness(30%); /* Apply the filter to the pseudo-element */
   z-index: -1; /* Place the pseudo-element below the content */
   background-size: cover;
   background-repeat: no-repeat;
@@ -293,21 +293,21 @@ html {
   font-size: 30px;
 }
 .background5 {
-  display: flex;          /* Make it a flex container */
+  display: flex; /* Make it a flex container */
   justify-content: center; /* Center children horizontally */
-  align-items: center;     /* Center children vertically */  /* Keep your padding if needed */
-    padding-bottom: 45px;      /* Set a height for the container */
+  align-items: center; /* Center children vertically */ /* Keep your padding if needed */
+  padding-bottom: 45px; /* Set a height for the container */
 }
 
 .footercont {
-  width: 50%;              /* Your existing width */
+  width: 50%; /* Your existing width */
   /* No need for margin auto since it's now flex centered */
 }
 
 .Socials {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+
 }
 
 .Size {
@@ -315,15 +315,14 @@ html {
   height: 50px;
 }
 
-.mainback{
+.mainback {
   background-color: #130d2e;
 }
-.footimage{
-  width:450px;
+.footimage {
+  width: 450px;
   height: 350px;
-
 }
-.footerflex{
+.footerflex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -400,7 +399,7 @@ input[type="submit"]:hover {
   .cont::before {
     background-position-y: -140px; /* Adjust position for smaller screens */
   }
-  .container5{
+  .container5 {
     width: 100%;
   }
 }
@@ -413,10 +412,10 @@ input[type="submit"]:hover {
   }
   .formtextcont {
     border-radius: 0px 0px 0px 0px;
-  }  .formtext{
-    
   }
-  .Center{
+  .formtext {
+  }
+  .Center {
     background: repeating-linear-gradient(
       45deg,
       #606dbc,
@@ -424,8 +423,7 @@ input[type="submit"]:hover {
       #465298 10px,
       #465298 20px
     );
-    
-}
+  }
 }
 @media (max-width: 900px) {
   .cont {
@@ -434,20 +432,31 @@ input[type="submit"]:hover {
   .cont::before {
     background-position-y: -90px; /* Adjust position for smaller screens */
   }
-  .image2{
+  .image2 {
     height: 250px;
     width: 350px;
   }
-  .footimage{
-    width:350px;
-    height: 250px;
+  .footimage {
+    width: 180px;
+    height: 180px;
   }
-  .fixabout{
-    width:100%;
+  .fixabout {
+    width: 100%;
   }
 
-
-
+  .name {
+    font-size: 20px;
+  }
+  .bright {
+    font-size: 13px;
+  }
+  .smalll {
+    font-size: 18px;
+  }
+  .Size {
+    width: 30px;
+    height: 30px;
+  }
 }
 @media (max-width: 700px) {
   .cont {

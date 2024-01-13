@@ -8,7 +8,7 @@ function Footer() {
         <div className="footerflex">
     <img className="footimage" src="Gallery/logotrue.png" alt="RKLogo"/>
     
-    <h1 className="white">All Rights reserved {year}</h1>
+    <h1 className="white smalll">All Rights reserved {year}</h1>
     </div>
 
 
