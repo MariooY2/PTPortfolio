@@ -11,10 +11,14 @@ html {
   font-family: sans-serif;
   scroll-behavior: smooth;
 }
-
+.navelem{
+  font-size: 25px;
+  font-weight: 600;
+}
 .navbar {
   margin-top: -7px;
 }
+
 
 .navbar-brand img {
   padding-bottom: 4px;
@@ -125,7 +129,12 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+  justify-content: center;
+}
+.flex5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .content {
   margin-top: 30px;
@@ -475,6 +484,12 @@ input[type="submit"]:hover {
     width: 30px;
     height: 30px;
   }
+  .flex5{
+    font-size: smaller!important;
+  }
+  .navelem{
+    font-size:25px !important;
+  }
 }
 @media (max-width: 700px) {
   .cont {
@@ -486,7 +501,10 @@ input[type="submit"]:hover {
   .footimage {
     width: 150px;
     height: 150px;
+  }.navelem{
+    font-size:22px !important;
   }
+
 }
 @media (max-width: 600px) {
   .cont {
@@ -494,6 +512,9 @@ input[type="submit"]:hover {
   }
   .cont::before {
     background-position-y: -70px; /* Adjust position for smaller screens */
+  }
+  .navelem{
+    font-size:20px !important;
   }
 }
 
@@ -504,6 +525,9 @@ input[type="submit"]:hover {
   .cont::before {
     background-position-y: -60px; /* Adjust position for smaller screens */
   }
+  .k{
+    margin-left: 5px;
+  }
 }
 @media (max-width: 400px) {
   .cont {
@@ -511,6 +535,12 @@ input[type="submit"]:hover {
   }
   .cont::before {
     background-position-y: -50px; /* Adjust position for smaller screens */
+  }
+  .navelem{
+    font-size:18px !important;
+  }
+  .container5{
+    margin-left:30px;
   }
 }
 
@@ -521,7 +551,20 @@ input[type="submit"]:hover {
   .cont::before {
     background-position-y: -40px; /* Adjust position for smaller screens */
   }
+  .textcontainer2{
+    font-size: smaller;
+  }
+  .navelem{
+    font-size:16px !important;
+  }
+  .k{
+    margin-left: 20px;
+  }
+  .container5{
+    margin-left:30px;
+  }
 }
+
 @media (max-width: 300px) {
   .cont {
     padding: 20px;
@@ -529,7 +572,59 @@ input[type="submit"]:hover {
   .cont::before {
     background-position-y: -20px; /* Adjust position for smaller screens */
   }
+  .k{
+    margin-left: 32px;
+  }
+  .container5{
+    margin-left:30px;
+  }
 }
+
+
+@media (max-width: 315px) {
+  .cont {
+    padding: 20px;
+  }
+  .cont::before {
+    background-position-y: -20px; /* Adjust position for smaller screens */
+  }
+  .k{
+    margin-left: 32px;
+  }
+}
+@media (max-width: 295px) {
+  .cont {
+    padding: 20px;
+  }
+  .cont::before {
+    background-position-y: -20px; /* Adjust position for smaller screens */
+  }
+  .k{
+    margin-left: 35px;
+  }
+  .container5{
+    margin-left:50px;
+  }
+}
+
+@media (max-width: 275px) {
+  .cont {
+    padding: 20px;
+  }
+  .cont::before {
+    background-position-y: -20px; /* Adjust position for smaller screens */
+  }
+  .k{
+    margin-left: 38px;
+  }
+  .container5{
+    margin-left:60px;
+  }
+}
+
+
+
+
 @media (max-width: 768px) {
   /* Adjust 768px to your breakpoint preference */
   .content {

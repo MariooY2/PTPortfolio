@@ -2,10 +2,12 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg">
       <div className="container-fluid">
-        <a className="navbar-brand" id="Home" style={{ fontSize: "25px" }}>
+        <div className="k">
+        <a className="navbar-brand navelem" id="Home" >
           <img src="Gallery/logof.png" alt="" width="40" height="35" />
           Fitness
         </a>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
