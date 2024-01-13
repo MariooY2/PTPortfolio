@@ -76,7 +76,7 @@ const ContactUs = () => {
                 <div className="mt-4"></div>
 
                 <div className="textcontainer2 disp">
-                  <h2 className="white mb-3">
+                  <h2 className="white mb-3 bolder1">
                     One Free <span className="white">Workout</span>
                   </h2>
                   <p className="white">
@@ -97,7 +97,7 @@ const ContactUs = () => {
                     Get started with a <span className="blue">FREE</span>{" "}
                     Consultation.
                   </p>
-                  <h4 className="signature">Riad Katrib</h4>
+                  <h4 className="signature bolder1">Riad Katrib</h4>
                 </div>
               </div>
               <div className="form-container white" id="Contact">
@@ -160,9 +160,10 @@ const ContactUs = () => {
         </div>
       </div>
       <div className="wid">
+        <div className="upalittle">
         <h3 className="number smalll">+41 78 309 83 73</h3>
         <div className="call smalll">
-          Call Me <span className="highlight">Today</span>
+          Call Me&nbsp;<span className="highlight">Today</span></div>
         </div>
       </div>
     </div>

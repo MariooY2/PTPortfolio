@@ -267,7 +267,17 @@ html {
   filter: invert(20%) sepia(100%) saturate(1000%) hue-rotate(-40deg)
     brightness(0.9);
 }
-
+.upalittle{
+  margin-top: -15px;
+}
+.call{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bolder1{
+  font-weight:900;
+}
 .form-container {
   display: flex;
   justify-content: center;
@@ -437,8 +447,8 @@ input[type="submit"]:hover {
     width: 350px;
   }
   .footimage {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
   }
   .fixabout {
     width: 100%;
@@ -464,6 +474,10 @@ input[type="submit"]:hover {
   }
   .cont::before {
     background-position-y: -80px; /* Adjust position for smaller screens */
+  }
+  .footimage {
+    width: 150px;
+    height: 150px;
   }
 }
 @media (max-width: 600px) {
