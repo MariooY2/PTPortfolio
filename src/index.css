@@ -40,7 +40,7 @@ html {
 .cont {
   color: white;
   text-align: center;
-  padding: 250px;
+  padding: 253px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -440,8 +440,7 @@ input[type="submit"]:hover {
   .formtextcont {
     border-radius: 0px 0px 0px 0px;
   }
-  .formtext {
-  }
+
   .Center {
     background: repeating-linear-gradient(
       45deg,
