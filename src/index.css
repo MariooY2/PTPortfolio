@@ -118,7 +118,15 @@ html {
   width: 90%; /* Define the width of your container */
   margin: 0 auto; /* Auto margins will center the block horizontally */
 }
-
+.widw{
+  width:100%;
+}
+.flex121{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
 .content {
   margin-top: 30px;
   display: flex;
@@ -276,7 +284,7 @@ html {
   justify-content: center;
 }
 .bolder1{
-  font-weight:900;
+  font-weight:bolder;
 }
 .form-container {
   display: flex;

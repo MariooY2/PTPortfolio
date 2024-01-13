@@ -7,15 +7,15 @@ import CallButton from "./assets/callbutton";
 import Footer from "./assets/footer";
 function App() {
   return (
-    <>
+    <div className="widw">
       <Nav />
       <Cover />
-      <CallButton/>
+      {/*<CallButton/>*/}
       <Body />
       <Programs />
       <ContactUs />
       <Footer/>
-    </>
+    </div>
   );
 }
 
