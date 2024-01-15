@@ -79,8 +79,8 @@ const ContactUs = () => {
                   <h2 className="white mb-3 bolder1">
                     One Free <span className="white">Workout</span>
                   </h2>
-                  <p className="white flex5">
-                    <span className="bolder bigger">My Workouts are designed to overcome all Plateaus.</span>
+                  <p className="">
+                    <span className="lastformtext">My Workouts are designed to overcome all Plateaus.</span>
                   </p>
                   <div className="formtextcont2 white mb-3">
                     <p className="mt-3">
