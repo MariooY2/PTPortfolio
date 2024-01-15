@@ -31,13 +31,17 @@ const Body = () => {
               Every<span className="highlight">Body</span> is Different.
             </h3>
             <div className="under"></div>
+            <hr className="hr"></hr>
+            <div className="fix5">
             <h1>
-              <span className="blue">MAXIMIZE YOUR LIFE</span>
+              <span className="blue fixa upit">MAXIMIZE YOUR</span>
             </h1>
+            
+            <h1 className="highlight fixa upit">LIFE</h1></div>
           </div>
           <div className="ms-5">
             <div className="fixabout">
-              <p>
+              <p className="bigger">
                 Stop waiting to get in <span className="highlight">shape</span>!
                 I will help you sculpt the body that fits your lifestyle and
                 I'll help you maintain it through all aspects of life. Why give
@@ -45,7 +49,7 @@ const Body = () => {
                 of transforming your body from nutrition to exercise all the way
                 down to your molecular structure.
               </p>
-              <p>
+              <p className="bigger">
                 Personalization is key to getting the best possible results,
                 which is why my workout programs are modified to fit your
                 individual fitness goals and fitness level. Whether you're new
@@ -76,6 +80,7 @@ function CompList(props) {
           />
         ))}
       </div>
+
     </div>
   );
 }
@@ -85,6 +90,7 @@ function Comp(props) {
     <div className="fix">
       <img className="images" src={props.image} alt={props.index} />
       <h2 className="headername">{props.header}</h2>
+      <div className="under2"></div>
       <p className="paragraph-3">{props.text}</p>
     </div>
   );

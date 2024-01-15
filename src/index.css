@@ -71,24 +71,15 @@ html {
   font-weight: bold;
   z-index: 2; /* Ensure it's above the background if needed */
 }
-.flexk{
-  flex:1;
-}
-.flexj{
-  flex-grow:4;
-  
-}
 
 
-.khk{
-  width:100%;
-}
 .centerit{
   margin-top:-15px ;
   
 }
 
 .name {
+  font-size: 50px;
   color: red; /* Or the color used in your design */
   margin-bottom: 10px;
 }
@@ -99,9 +90,8 @@ html {
   font-family: "Arial", sans-serif; /* Use the font that matches your design */
 }
 
-.body-content h1 {
-  color: #000; /* Use the color that matches your design */
-  margin-bottom: 24px;
+.upit{
+  margin-top: -15px;
 }
 
 .body-content p {
@@ -144,6 +134,7 @@ html {
 .widw{
   width:100%;
 }
+
 .flex121{
   display: flex;
   flex-direction: column;
@@ -162,10 +153,14 @@ html {
   justify-content: center;
   align-items: center;
 }
-
+.fixa{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .Items {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -182,15 +177,34 @@ html {
   font-size: 100%;
   text-transform: uppercase;
 }
+
+
+
+
+.fix5{
+  padding:0 !important;
+  margin:0 !important;
+}
+
+
 .under {
-  width: 101px;
-  height: 4px;
+  width: 55px;
+  height: 6px;
+  border-radius: 20px;
+  background-color: #f60000;
+}
+.under2 {
+  width: 30px;
+  height: 3px;
   border-radius: 20px;
   background-color: #f60000;
 }
 .blue {
   color: #2a3281;
   font-weight: bold;
+}
+.hr{
+  margin-bottom: 50px;
 }
 .image2 {
   height: 350px;
@@ -207,6 +221,7 @@ html {
   align-items: center; /* Center vertically */
 }
 .fixabout {
+  margin-top: 40px;
   width: 50%;
 }
 
@@ -229,6 +244,8 @@ html {
   line-height: 27px;
   font-weight: 400;
   letter-spacing: 0.2px;
+  font-size:18px;
+  
 }
 .paragraph2 {
   text-indent: 0 !important; /* Ensures no indentation on the first line */
@@ -352,6 +369,9 @@ html {
 .footercont {
   width: 50%; /* Your existing width */
   /* No need for margin auto since it's now flex centered */
+}
+.bigger{
+  font-size: 17px ;
 }
 
 .Socials {
@@ -490,11 +510,12 @@ input[type="submit"]:hover {
     height: 200px;
   }
   .fixabout {
-    width: 100%;
+    width: 110%;
+    margin-left: -40px;
   }
 
   .name {
-    font-size: 20px;
+    font-size: 35px;
   }
   .bright {
     font-size: 12px;
@@ -512,7 +533,18 @@ input[type="submit"]:hover {
   .navelem{
     font-size:25px !important;
   }
-
+  .under{
+    margin-left: -40px;
+  }
+  .hr{
+    margin-left:-40px;
+  }
+  .heading-8{
+    margin-left:-40px;
+  }
+  .fixa{
+    margin-left: -60px;
+  }
 }
 @media (max-width: 700px) {
   .cont {
@@ -531,13 +563,19 @@ input[type="submit"]:hover {
   margin-top:-110px ;
   
 }
+.name {
+  font-size: 25px;
+}
+.bright {
+  font-size: 10px;
+}
 }
 @media (max-width: 600px) {
   .cont {
     padding: 160px;
   }
   .cont::before {
-    background-position-y: -70px; /* Adjust position for smaller screens */
+    background-position-y: -0px; /* Adjust position for smaller screens */
   }
   .navelem{
     font-size:20px !important;
@@ -548,6 +586,12 @@ input[type="submit"]:hover {
   .bolder{
     font-weight: lighter;
   }
+  .name {
+    font-size: 22px;
+  }
+  .bright {
+    font-size: 9px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -555,7 +599,7 @@ input[type="submit"]:hover {
     padding: 150px;
   }
   .cont::before {
-    background-position-y: -60px; /* Adjust position for smaller screens */
+    background-position-y: 0px; /* Adjust position for smaller screens */
     
     
   }
@@ -565,12 +609,17 @@ input[type="submit"]:hover {
   .centerit{
     margin-top:-120px ;
   }
- 
+  .name {
+    font-size: 20px;
+  }
+  .bright {
+    font-size: 10px;
+  }
   
 }
 @media (max-width: 480px) {
   .cont::before {
-    background-position-y: -60px; /* Adjust position for smaller screens */
+    background-position-y: 0px; /* Adjust position for smaller screens */
     background-position-x: -0px;
     
   }
@@ -578,7 +627,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 465px) {
   .cont::before {
-    background-position-y: -60px; /* Adjust position for smaller screens */
+    background-position-y: 0px; /* Adjust position for smaller screens */
     background-position-x: 0px;
     
   }
@@ -615,7 +664,7 @@ input[type="submit"]:hover {
   }
   .cont::before {
     background-position-y: -50px; /* Adjust position for smaller screens */
-    background-position-x: -18px;
+    background-position-x: -0px;
 
   }
   .navelem{
