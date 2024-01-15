@@ -60,7 +60,7 @@ html {
   z-index: -1; /* Place the pseudo-element below the content */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -10px;
+  background-position-y: -90px;
 }
 
 .bright {
@@ -76,7 +76,7 @@ html {
   font-size: 50px;
   color: red; /* Or the color used in your design */
   margin-bottom: 10px;
-  font-weight: lighter;
+  font-weight: 900;
 }
 
 .body-content {
@@ -431,34 +431,34 @@ input[type="submit"]:hover {
 
 @media (max-width: 3500px) {
   .cont::before {
-    background-position-y: -350px; /* Adjust position for smaller screens */
+    background-position-y: -970px; /* Adjust position for smaller screens */
   }
 }
 @media (max-width: 2500px) {
   .cont::before {
-    background-position-y: -300px; /* Adjust position for smaller screens */
+    background-position-y: -900px; /* Adjust position for smaller screens */
   }
 }
 
 @media (max-width: 1800px) {
   .cont::before {
-    background-position-y: -280px; /* Adjust position for smaller screens */
+    background-position-y: -830px; /* Adjust position for smaller screens */
   }
 }
 
 @media (max-width: 1600px) {
   .cont::before {
-    background-position-y: -250px; /* Adjust position for smaller screens */
+    background-position-y: -720px; /* Adjust position for smaller screens */
   }
 }
 @media (max-width: 1400px) {
   .cont::before {
-    background-position-y: -160px; /* Adjust position for smaller screens */
+    background-position-y: -660px; /* Adjust position for smaller screens */
   }
 }
 @media (max-width: 1200px) {
   .cont::before {
-    background-position-y: -140px; /* Adjust position for smaller screens */
+    background-position-y: -520px; /* Adjust position for smaller screens */
   }
   .container5 {
     width: 100%;
@@ -466,7 +466,7 @@ input[type="submit"]:hover {
 }
 @media (max-width: 1018px) {
   .cont::before {
-    background-position-y: -100px; /* Adjust position for smaller screens */
+    background-position-y: -420px; /* Adjust position for smaller screens */
   }
   .form-container {
     border-radius: 0px 0px 0px 0px;
@@ -490,7 +490,7 @@ input[type="submit"]:hover {
     padding: 180px;
   }
   .cont::before {
-    background-position-y: -90px; /* Adjust position for smaller screens */
+    background-position-y: -360px; /* Adjust position for smaller screens */
   }
   .image2 {
     height: 250px;
@@ -544,7 +544,7 @@ input[type="submit"]:hover {
     padding: 170px;
   }
   .cont::before {
-    background-position-y: -80px; /* Adjust position for smaller screens */
+    background-position-y: -300px; /* Adjust position for smaller screens */
   }
   .footimage {
     width: 150px;
@@ -567,7 +567,7 @@ input[type="submit"]:hover {
     padding: 160px;
   }
   .cont::before {
-    background-position-y: -0px; /* Adjust position for smaller screens */
+    background-position-y: -225px; /* Adjust position for smaller screens */
   }
   .navelem {
     font-size: 20px !important;
@@ -590,7 +590,7 @@ input[type="submit"]:hover {
     padding: 150px;
   }
   .cont::before {
-    background-position-y: 0px; /* Adjust position for smaller screens */
+    background-position-y: -180px; /* Adjust position for smaller screens */
   }
 
   .k {
@@ -606,16 +606,11 @@ input[type="submit"]:hover {
     font-size: 12px;
   }
 }
-@media (max-width: 480px) {
-  .cont::before {
-    background-position-y: 0px; /* Adjust position for smaller screens */
-    background-position-x: -0px;
-  }
-}
+
 
 @media (max-width: 475px) {
   .cont::before {
-    background-position-y: 0px; /* Adjust position for smaller screens */
+    background-position-y: -200px; /* Adjust position for smaller screens */
     background-position-x: 0px;
   }
   .name {
@@ -628,7 +623,7 @@ input[type="submit"]:hover {
     padding: 140px;
   }
   .cont::before {
-    background-position-y: -60px; /* Adjust position for smaller screens */
+    background-position-y: -180px; /* Adjust position for smaller screens */
     background-position-x: 0px;
   }
   .k {
@@ -650,7 +645,7 @@ input[type="submit"]:hover {
     padding: 130px;
   }
   .cont::before {
-    background-position-y: -20px; /* Adjust position for smaller screens */
+    background-position-y: -160px; /* Adjust position for smaller screens */
     background-position-x: -0px;
   }
   .navelem {
@@ -664,6 +659,8 @@ input[type="submit"]:hover {
   }
   form {
     width: 95%;
+  }  .name {
+    font-size: 17px;
   }
 }
 
@@ -672,7 +669,7 @@ input[type="submit"]:hover {
     padding: 125px;
   }
   .cont::before {
-    background-position-y: -40px; /* Adjust position for smaller screens */
+    background-position-y: -140px; /* Adjust position for smaller screens */
     background-position-x: 0px;
   }
   .textcontainer2 {
@@ -700,7 +697,7 @@ input[type="submit"]:hover {
     padding: 120px;
   }
   .cont::before {
-    background-position-y: -20px; /* Adjust position for smaller screens */
+    background-position-y: -120px; /* Adjust position for smaller screens */
     background-position-x: 10px;
   }
   .k {
@@ -716,7 +713,7 @@ input[type="submit"]:hover {
     padding: 120px;
   }
   .cont::before {
-    background-position-y: -20px; /* Adjust position for smaller screens */
+    background-position-y: -120px; /* Adjust position for smaller screens */
     background-position-x: 15px;
   }
   .k {
@@ -739,7 +736,7 @@ input[type="submit"]:hover {
     padding: 120px;
   }
   .cont::before {
-    background-position-y: -20px; /* Adjust position for smaller screens */
+    background-position-y: -120px; /* Adjust position for smaller screens */
     background-position-x: 20px;
   }
   .k {
@@ -755,7 +752,7 @@ input[type="submit"]:hover {
     padding: 110px;
   }
   .cont::before {
-    background-position-y: -20px; /* Adjust position for smaller screens */
+    background-position-y: -120px; /* Adjust position for smaller screens */
     background-position-x: 22px;
   }
   .k {
