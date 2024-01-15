@@ -18,20 +18,8 @@ const allthecomponents = [
     image: "Gallery/GroupTraining.png",
   },
   {
-    header: "Health",
+    header: "Health&Nutrition",
     image: "Gallery/healthandnutrition.png",
-  },
-  {
-    header: "Calisthenics",
-    image: "Gallery/calisthenics1.png",
-  },
-  {
-    header: "Cross Fit",
-    image: "Gallery/crossfit.png",
-  },
-  {
-    header: "Sports Training",
-    image: "Gallery/sportstraining.png",
   },
 ];
 
@@ -60,7 +48,7 @@ function MethodsList(props) {
   return (
     <div className="disp flex-item">
       <img className="icon images" src={props.im} alt={props.key} />
-      <h1 className="small bolder">{props.header}</h1>
+      <h1 className="small bolder centerk">{props.header}</h1>
     </div>
   );
   }

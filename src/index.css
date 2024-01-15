@@ -329,8 +329,7 @@ html {
   justify-content: space-between;
 }
 .icon {
-  filter: invert(20%) sepia(100%) saturate(1000%) hue-rotate(-40deg)
-    brightness(0.9);
+  filter: invert(100%) 
 }
 .upalittle {
   margin-top: -15px;
@@ -340,6 +339,13 @@ html {
   align-items: center;
   justify-content: center;
 }
+.centerk{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px !important;
+}
+
 .bolder1 {
   font-weight: bolder;
 }
