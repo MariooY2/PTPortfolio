@@ -547,7 +547,7 @@ input[type="submit"]:hover {
   }
   .cont::before {
     background-position-y: -60px; /* Adjust position for smaller screens */
-    background-position-x: -10px;
+    
     
   }
   .k{
@@ -559,6 +559,25 @@ input[type="submit"]:hover {
  
   
 }
+@media (max-width: 480px) {
+  .cont::before {
+    background-position-y: -60px; /* Adjust position for smaller screens */
+    background-position-x: -40px;
+    
+  }
+}
+
+@media (max-width: 465px) {
+  .cont::before {
+    background-position-y: -60px; /* Adjust position for smaller screens */
+    background-position-x: -40px;
+    
+  }
+}
+
+
+
+
 @media (max-width: 450px) {
   .cont {
     padding: 170px;
@@ -566,7 +585,7 @@ input[type="submit"]:hover {
   }
   .cont::before {
     background-position-y: -60px; /* Adjust position for smaller screens */
-    background-position-x: -22px;
+    background-position-x: -40px;
     
   }
   .k{
@@ -713,5 +732,12 @@ input[type="submit"]:hover {
   /* Adjust 768px to your breakpoint preference */
   .content {
     flex-wrap: wrap; /* Enable wrapping when the screen is smaller */
+  }
+}
+@media (max-width: 285px) {
+  .cont::before {
+    background-position-y: -60px; /* Adjust position for smaller screens */
+    background-position-x: 30px;
+    
   }
 }
