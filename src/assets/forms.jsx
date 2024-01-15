@@ -91,7 +91,7 @@ const ContactUs = () => {
                       in fact if you want to make great gains or lose weight it
                       can be extremely hard work, but if you work it properly it
                       always delivers.
-                    </p>
+                    </p> 
                   </div>
                   <p className="white mb-5">
                     Get started with a <span className="blue">FREE</span>{" "}
