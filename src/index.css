@@ -10,7 +10,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  
   scroll-behavior: smooth;
 }
 .navelem{
@@ -66,11 +66,20 @@ html {
   background-position-y: -10px;
 }
 
+
 .bright {
   font-weight: bold;
   z-index: 2; /* Ensure it's above the background if needed */
+}
+.flexk{
+  flex:1;
+}
+.flexj{
+  flex-grow:4;
   
 }
+
+
 .khk{
   width:100%;
 }
@@ -467,7 +476,7 @@ input[type="submit"]:hover {
 }
 @media (max-width: 900px) {
   .cont {
-    padding: 200px;
+    padding: 180px;
   }
   .cont::before {
     background-position-y: -90px; /* Adjust position for smaller screens */
@@ -488,7 +497,7 @@ input[type="submit"]:hover {
     font-size: 20px;
   }
   .bright {
-    font-size: 13px;
+    font-size: 12px;
   }
   .smalll {
     font-size: 18px;
@@ -507,7 +516,7 @@ input[type="submit"]:hover {
 }
 @media (max-width: 700px) {
   .cont {
-    padding: 195px;
+    padding: 170px;
   }
   .cont::before {
     background-position-y: -80px; /* Adjust position for smaller screens */
@@ -525,7 +534,7 @@ input[type="submit"]:hover {
 }
 @media (max-width: 600px) {
   .cont {
-    padding: 190px;
+    padding: 160px;
   }
   .cont::before {
     background-position-y: -70px; /* Adjust position for smaller screens */
@@ -543,7 +552,7 @@ input[type="submit"]:hover {
 
 @media (max-width: 500px) {
   .cont {
-    padding: 180px;
+    padding: 150px;
   }
   .cont::before {
     background-position-y: -60px; /* Adjust position for smaller screens */
@@ -562,7 +571,7 @@ input[type="submit"]:hover {
 @media (max-width: 480px) {
   .cont::before {
     background-position-y: -60px; /* Adjust position for smaller screens */
-    background-position-x: -40px;
+    background-position-x: -0px;
     
   }
 }
@@ -570,7 +579,7 @@ input[type="submit"]:hover {
 @media (max-width: 465px) {
   .cont::before {
     background-position-y: -60px; /* Adjust position for smaller screens */
-    background-position-x: -40px;
+    background-position-x: 0px;
     
   }
 }
@@ -580,12 +589,12 @@ input[type="submit"]:hover {
 
 @media (max-width: 450px) {
   .cont {
-    padding: 170px;
+    padding: 140px;
     
   }
   .cont::before {
     background-position-y: -60px; /* Adjust position for smaller screens */
-    background-position-x: -40px;
+    background-position-x: 0px;
     
   }
   .k{
@@ -602,11 +611,11 @@ input[type="submit"]:hover {
 
 @media (max-width: 400px) {
   .cont {
-    padding: 175px;
+    padding: 130px;
   }
   .cont::before {
     background-position-y: -50px; /* Adjust position for smaller screens */
-    background-position-x: -80px;
+    background-position-x: -18px;
 
   }
   .navelem{
@@ -627,11 +636,11 @@ input[type="submit"]:hover {
 
 @media (max-width: 350px) {
   .cont {
-    padding: 160px;
+    padding: 125px;
   }
   .cont::before {
     background-position-y: -40px; /* Adjust position for smaller screens */
-    background-position-x:-70px ;
+    background-position-x:0px ;
   }
   .textcontainer2{
     font-size: smaller;
@@ -654,13 +663,30 @@ input[type="submit"]:hover {
 
 }
 
-@media (max-width: 300px) {
+
+@media (max-width: 315px) {
   .cont {
-    padding: 150px;
+    padding: 120px;
   }
   .cont::before {
     background-position-y: -20px; /* Adjust position for smaller screens */
-    background-position-x:-20px ;
+    background-position-x: 10px ;
+  }
+  .k{
+    margin-left: 32px;
+  }
+  .nav-link{
+    margin-left:40px !important;
+  }
+}
+
+@media (max-width: 300px) {
+  .cont {
+    padding: 120px;
+  }
+  .cont::before {
+    background-position-y: -20px; /* Adjust position for smaller screens */
+    background-position-x:15px ;
   }
   .k{
     margin-left: 32px;
@@ -678,28 +704,14 @@ input[type="submit"]:hover {
 }
 
 
-@media (max-width: 315px) {
+
+@media (max-width: 285px) {
   .cont {
-    padding: 150px;
+    padding:120px;
   }
   .cont::before {
     background-position-y: -20px; /* Adjust position for smaller screens */
-    background-position-x:-25px ;
-  }
-  .k{
-    margin-left: 32px;
-  }
-  .nav-link{
-    margin-left:40px !important;
-  }
-}
-@media (max-width: 295px) {
-  .cont {
-    padding:145px;
-  }
-  .cont::before {
-    background-position-y: -20px; /* Adjust position for smaller screens */
-    background-position-x:-25px ;
+    background-position-x:20px ;
   }
   .k{
     margin-left: 35px;
@@ -711,11 +723,11 @@ input[type="submit"]:hover {
 
 @media (max-width: 275px) {
   .cont {
-    padding: 85px;
+    padding: 110px;
   }
   .cont::before {
     background-position-y: -20px; /* Adjust position for smaller screens */
-    background-position-x:14px ;
+    background-position-x:22px ;
   }
   .k{
     margin-left: 38px;
@@ -732,12 +744,5 @@ input[type="submit"]:hover {
   /* Adjust 768px to your breakpoint preference */
   .content {
     flex-wrap: wrap; /* Enable wrapping when the screen is smaller */
-  }
-}
-@media (max-width: 285px) {
-  .cont::before {
-    background-position-y: -60px; /* Adjust position for smaller screens */
-    background-position-x: 30px;
-    
   }
 }
