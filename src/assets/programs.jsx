@@ -60,7 +60,7 @@ function MethodsList(props) {
   return (
     <div className="disp flex-item">
       <img className="icon images" src={props.im} alt={props.key} />
-      <h1 className="small">{props.header}</h1>
+      <h1 className="small bolder">{props.header}</h1>
     </div>
   );
   }
@@ -72,7 +72,7 @@ function Programs() {
         <div className="wi">
           <hr></hr>
           <hr></hr>
-          <h1 className=" white">Fitness Programs</h1>
+          <h1 className="white bolder">FITNESS PROGRAMS</h1>
         </div>
         <div className="container8">
         <div className="container5">

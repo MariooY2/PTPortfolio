@@ -2,9 +2,11 @@
 @import url("https://fonts.cdnfonts.com/css/best-signature-font");
 @import url("https://fonts.cdnfonts.com/css/autograf-personal-use-only");
 * {
-  font-family: "Inter", sans-serif;
+  /*font-family: "Inter", sans-serif;*/
+  font-family:'Avenirltstd book', sans-serif;
   padding: 0px;
   margin: 0px;
+
 }
 
 html {
@@ -40,11 +42,13 @@ html {
 .cont {
   color: white;
   text-align: center;
-  padding: 253px;
+  /*height: 75vh;*/
+  padding: 263px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1; /* Establish stacking context */
+
 }
 
 .cont::before {
@@ -67,6 +71,11 @@ html {
   font-weight: bold;
   position: relative;
   z-index: 2; /* Ensure it's above the background if needed */
+  
+}
+.centerit{
+  margin-top:-15px ;
+  
 }
 
 .name {
@@ -197,7 +206,7 @@ html {
 .headername {
   color: #2a3281;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
 }
 .paragraph-3 {
   width: auto;
@@ -206,7 +215,7 @@ html {
   padding-right: 0px;
   font-family: sans-serif;
   color: #474747;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 27px;
   font-weight: 400;
   letter-spacing: 0.2px;
@@ -236,6 +245,10 @@ html {
 }
 .container5 {
   width: 50%;
+  font-weight: bolder;
+}
+.bolder{
+  font-weight: bolder;
 }
 .container8 {
   display: flex;
@@ -453,7 +466,7 @@ input[type="submit"]:hover {
 }
 @media (max-width: 900px) {
   .cont {
-    padding: 180px;
+    padding: 200px;
   }
   .cont::before {
     background-position-y: -90px; /* Adjust position for smaller screens */
@@ -489,10 +502,11 @@ input[type="submit"]:hover {
   .navelem{
     font-size:25px !important;
   }
+
 }
 @media (max-width: 700px) {
   .cont {
-    padding: 160px;
+    padding: 195px;
   }
   .cont::before {
     background-position-y: -80px; /* Adjust position for smaller screens */
@@ -503,11 +517,14 @@ input[type="submit"]:hover {
   }.navelem{
     font-size:22px !important;
   }
-
+.centerit{
+  margin-top:-110px ;
+  
+}
 }
 @media (max-width: 600px) {
   .cont {
-    padding: 130px;
+    padding: 190px;
   }
   .cont::before {
     background-position-y: -70px; /* Adjust position for smaller screens */
@@ -515,25 +532,52 @@ input[type="submit"]:hover {
   .navelem{
     font-size:20px !important;
   }
+  .centerit{
+    margin-top:-115px ;
+  }
 }
 
 @media (max-width: 500px) {
   .cont {
-    padding: 90px;
+    padding: 180px;
   }
   .cont::before {
     background-position-y: -60px; /* Adjust position for smaller screens */
+    background-position-x: -10px;
+    
   }
   .k{
     margin-left: 5px;
   }
+  .centerit{
+    margin-top:-120px ;
+  }
 }
+@media (max-width: 450px) {
+  .cont {
+    padding: 170px;
+  }
+  .cont::before {
+    background-position-y: -60px; /* Adjust position for smaller screens */
+    background-position-x: -22px;
+    
+  }
+  .k{
+    margin-left: 5px;
+  }
+  .centerit{
+    margin-top:-120px ;
+  }
+}
+
 @media (max-width: 400px) {
   .cont {
-    padding: 60px;
+    padding: 175px;
   }
   .cont::before {
     background-position-y: -50px; /* Adjust position for smaller screens */
+    background-position-x: -80px;
+
   }
   .navelem{
     font-size:18px !important;
@@ -541,14 +585,21 @@ input[type="submit"]:hover {
   .container5{
     margin-left:30px;
   }
+  .centerit{
+    margin-top:-45px ;
+  }
+  form{
+    width:95%
+  }
 }
 
 @media (max-width: 350px) {
   .cont {
-    padding: 40px;
+    padding: 160px;
   }
   .cont::before {
     background-position-y: -40px; /* Adjust position for smaller screens */
+    background-position-x:-70px ;
   }
   .textcontainer2{
     font-size: smaller;
@@ -562,14 +613,18 @@ input[type="submit"]:hover {
   .container5{
     margin-left:30px;
   }
+  form{
+    width:85%
+  }
 }
 
 @media (max-width: 300px) {
   .cont {
-    padding: 20px;
+    padding: 150px;
   }
   .cont::before {
     background-position-y: -20px; /* Adjust position for smaller screens */
+    background-position-x:-20px ;
   }
   .k{
     margin-left: 32px;
@@ -577,15 +632,20 @@ input[type="submit"]:hover {
   .container5{
     margin-left:30px;
   }
+  form{
+    width:75%;
+    margin-left: 30px;
+  }
 }
 
 
 @media (max-width: 315px) {
   .cont {
-    padding: 20px;
+    padding: 150px;
   }
   .cont::before {
     background-position-y: -20px; /* Adjust position for smaller screens */
+    background-position-x:-25px ;
   }
   .k{
     margin-left: 32px;
@@ -593,10 +653,11 @@ input[type="submit"]:hover {
 }
 @media (max-width: 295px) {
   .cont {
-    padding: 20px;
+    padding:145px;
   }
   .cont::before {
     background-position-y: -20px; /* Adjust position for smaller screens */
+    background-position-x:-25px ;
   }
   .k{
     margin-left: 35px;
@@ -608,10 +669,11 @@ input[type="submit"]:hover {
 
 @media (max-width: 275px) {
   .cont {
-    padding: 20px;
+    padding: 85px;
   }
   .cont::before {
     background-position-y: -20px; /* Adjust position for smaller screens */
+    background-position-x:14px ;
   }
   .k{
     margin-left: 38px;
