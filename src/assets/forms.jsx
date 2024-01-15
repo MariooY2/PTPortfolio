@@ -80,7 +80,7 @@ const ContactUs = () => {
                     One Free <span className="white">Workout</span>
                   </h2>
                   <p className="white flex5">
-                    My Workouts are designed to overcome all Plateaus.
+                    <span className="bolder bigger">My Workouts are designed to overcome all Plateaus.</span>
                   </p>
                   <div className="formtextcont2 white mb-3">
                     <p className="mt-3">
@@ -104,7 +104,7 @@ const ContactUs = () => {
                 {emailSent ? (
                   <div className="success-animation">
                     Email successfully sent!
-                    <p>You'll be contacted as soon as possible</p>
+                    <p>I will contact you soon!!!</p>
                   </div>
                 ) : (
                   <form ref={form} onSubmit={sendEmail}>
