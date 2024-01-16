@@ -74,10 +74,10 @@ const ContactUs = () => {
               <div className="formtextcont">
                 <div className="mt-5"></div>
                 <div className="mt-4"></div>
-
+              
                 <div className="textcontainer2 disp">
                   <h2 className="white mb-3 bolder1">
-                    One Free <span className="white">Workout</span>
+                    One Free Workout
                   </h2>
                   <p className="">
                     <span className="lastformtext">My Workouts are designed to overcome all Plateaus.</span>

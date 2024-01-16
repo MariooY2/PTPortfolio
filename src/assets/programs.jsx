@@ -28,7 +28,7 @@ function Components(props) {
     <div className="toplevel">
       <div className="content">
         <img className="image2" src="Gallery/test2.svg" alt="bla" />
-      </div>
+  </div>
       <AllMethods />
     </div>
   );
@@ -54,13 +54,21 @@ function MethodsList(props) {
   }
 
 function Programs() {
-  return (
+  return (<div>
+
+    
+
+
+  
+
+
     <div className="main5" id="Programs">
+
       <div className="text-center flex-item">
         <div className="wi">
           <hr></hr>
           <hr></hr>
-          <h1 className="white bolder">FITNESS PROGRAMS</h1>
+         <h1 className="white bolder">FITNESS PROGRAMS</h1>
         </div>
         <div className="container8">
         <div className="container5">
@@ -89,6 +97,7 @@ function Programs() {
       <div className="container2nd flex-item">
         <Components />
       </div>
+    </div>
     </div>
   );
 }

@@ -230,7 +230,7 @@ html {
 }
 
 .pushdown {
-  margin-top: 90px;
+  margin-top: 180px;
 }
 .headername {
   color: #2a3281;
@@ -258,13 +258,7 @@ html {
 .white {
   color: white;
 }
-.main5 {
-  padding-top: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #130d2e;
-  padding-bottom: 40px;
-}
+
 
 .lastformtext {
   color: white;
@@ -280,7 +274,7 @@ html {
 }
 .container5 {
   width: 50%;
-  font-weight: bolder;
+  
 }
 .bolder {
   font-weight: bolder;
@@ -378,6 +372,27 @@ html {
   justify-content: center; /* Center children horizontally */
   align-items: center; /* Center children vertically */ /* Keep your padding if needed */
   padding-bottom: 45px; /* Set a height for the container */
+}
+
+.main5 {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #130d2e;
+  padding-bottom: 40px;
+}
+
+.helw {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #130d2e;
+}
+.cn{
+  margin-left: 5px;
 }
 
 .footercont {
@@ -525,6 +540,8 @@ input[type="submit"]:hover {
   .fixabout {
     width: 110%;
     margin-left: -40px;
+  }.pushdown {
+    margin-top: 50px;
   }
 
   .name {
@@ -593,14 +610,24 @@ input[type="submit"]:hover {
     font-size: 20px !important;
   }
 
-  .bolder {
-    font-weight: lighter;
-  }
+
   .name {
     font-size: 28px;
   }
   .bright {
     font-size: 13px;
+  }
+  .content {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }.pushdown {
+    margin-top: 20px;
+  }
+  .smalll{
+    font-size: 18px;
   }
 }
 
@@ -624,6 +651,23 @@ input[type="submit"]:hover {
   .bright {
     font-size: 12px;
   }
+
+  .lastformtext {
+    color: white;
+    font-size: 17px;
+  }
+  .Size{
+    width: 25px;
+    height: 25px;
+  }
+  .footimage {
+    width: 120px;
+    height: 120px;
+  }  .smalll{
+    font-size: 16px;
+  }
+
+
 }
 
 @media (max-width: 475px) {
@@ -655,6 +699,10 @@ input[type="submit"]:hover {
   }
   .name {
     font-size: 18px;
+  }
+  .footimage {
+    width: 100px;
+    height: 100px;
   }
 }
 

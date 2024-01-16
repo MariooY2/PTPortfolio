@@ -10,7 +10,7 @@ function App() {
     <div className="widw">
       <Nav />
       <Cover />
-      {/*<CallButton/>*/}
+      <CallButton/>
       <Body />
       <Programs />
       <ContactUs />
