@@ -12,7 +12,7 @@ function Footer() {
     </div>
 
 
-
+  
     <div className="background5">
   <div className="footercont">
     <div className="Socials icon">
