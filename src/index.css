@@ -22,8 +22,22 @@ html {
   font-size: 25px;
   font-weight: 600;
 }
+.subheading1{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.subheading2{
+  display: block;
+  
+}
 .navbar {
   margin-top: -7px;
+}
+.name{
+  text-transform: uppercase;
+  display: block;
+  font-style: italic;
+  letter-spacing: 1px;
 }
 
 .navbar-brand img {
@@ -277,7 +291,7 @@ html {
   
 }
 .bolder {
-  font-weight: bolder;
+  font-weight: 900;
 }
 .container8 {
   display: flex;
@@ -547,6 +561,9 @@ input[type="submit"]:hover {
   .name {
     font-size: 35px;
   }
+  .subheading1{
+   font-size: 20px;
+  }
   .bright {
     font-size: 15px;
   }
@@ -595,8 +612,22 @@ input[type="submit"]:hover {
   .name {
     font-size: 30px;
   }
+  .subheading1{
+    font-size: 19px;
+  }
   .bright {
     font-size: 14px;
+  }
+  .bg{
+    font-family: Akzidenzgrotesk, sans-serif;
+    font-size: 22px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 6px;
+  }
+  .maker{
+    color:red;
   }
 }
 @media (max-width: 600px) {
@@ -612,7 +643,10 @@ input[type="submit"]:hover {
 
 
   .name {
-    font-size: 28px;
+    font-size: 25px;
+  }
+  .subheading1{
+    font-size: 18px;
   }
   .bright {
     font-size: 13px;
@@ -646,7 +680,10 @@ input[type="submit"]:hover {
     margin-top: -60px;
   }
   .name {
-    font-size: 25px;
+    font-size: 22px;
+  }
+  .subheading1{
+    font-size: 15px;
   }
   .bright {
     font-size: 12px;
@@ -676,7 +713,10 @@ input[type="submit"]:hover {
     background-position-x: 0px;
   }
   .name {
-    font-size: 22px;
+    font-size: 19px;
+  }
+  .subheading1{
+    font-size: 15px;
   }
 }
 
@@ -698,7 +738,10 @@ input[type="submit"]:hover {
     margin-left: 26px !important;
   }
   .name {
-    font-size: 18px;
+    font-size: 17px;
+  }
+  .subheading1{
+    font-size: 14px;
   }
   .footimage {
     width: 100px;
@@ -728,6 +771,9 @@ input[type="submit"]:hover {
   }
   .name {
     font-size: 17px;
+  }
+  .subheading1{
+    font-size: smaller;
   }
 }
 

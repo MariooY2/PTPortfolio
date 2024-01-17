@@ -1,6 +1,6 @@
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <div className="k">
         <a className="navbar-brand navelem" id="Home" >

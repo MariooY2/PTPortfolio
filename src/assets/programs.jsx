@@ -75,7 +75,7 @@ function Programs() {
         <div className="wid">
         
           <p className="white paragraph2">
-            Getting in shape shouldn't be a punishment. It's an amazing and
+            <span className="bg">Getting in <span className="maker">shape</span></span> shouldn't be a punishment. It's an amazing and
             empowering lifestyle decision that anyone can achieve. I believe in
             finding the pleasurable side of fitness, and while there may be sore
             muscles along the way, the amount of fun and levels of energy you
