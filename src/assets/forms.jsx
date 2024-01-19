@@ -104,7 +104,7 @@ const ContactUs = () => {
                 {emailSent ? (
                   <div className="success-animation">
                     Email successfully sent!
-                    <p>I will contact you soon!!!</p>
+                    <p>I will contact you as soon as possible</p>
                   </div>
                 ) : (
                   <form ref={form} onSubmit={sendEmail}>
