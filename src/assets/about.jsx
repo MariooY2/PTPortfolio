@@ -2,12 +2,12 @@ const obj = [
   {
     header: "Body Analysis",
     image: "Gallery/heart.png",
-    text: "I usually start my consultations off by performing an in-depth health assessment, using functional movement screenings and a body composition analysis",
+    text: "I usually start my consultations off by performing an in-depth health assessment, using functional movement screenings and a body composition analysis.",
   },
   {
     header: "Fitness Programs",
     image: "Gallery/Dumbell.png",
-    text: "Once fitness levels have been assessed, I design a custom workout routine for your goals, time constraints, & budget. I encourage, motivate & guide you to reach your health and fitness goals on a personalized level",
+    text: "Once fitness levels have been assessed, I design a custom workout routine for your goals, time constraints, & budget. I encourage, motivate & guide you to reach your health and fitness goals on a personalized level.",
   },
   {
     header: "Health and Nutrition",

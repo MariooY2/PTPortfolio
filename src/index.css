@@ -353,6 +353,8 @@ html {
   justify-content: center;
   align-items: center;
   font-size: 10px !important;
+  margin-top: 10px;
+  min-width: 80px;
 }
 
 .bolder1 {
