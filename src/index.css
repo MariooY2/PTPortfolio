@@ -366,7 +366,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 120vh; /* This ensures that the form is centered vertically in the viewport */
+  min-height: 80vh; /* This ensures that the form is centered vertically in the viewport */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #130d2e;
   border-radius: 0px 70px 70px 0px;
@@ -453,11 +453,11 @@ width: 100%;
 
 
 form {
-  margin-top: -25%;
-  width: 100%;
+  margin-top: 0px;
+  width: 90%;
   max-width: 500px; /* Maximum width of the form */
   background: #fff;
-  padding: 20px;
+  padding: 2px;
   background-color: #130d2e;
 }
 
