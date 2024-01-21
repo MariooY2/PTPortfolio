@@ -66,6 +66,7 @@ html {
   background-size: cover;
   position: relative;
   z-index: 1; /* Establish stacking context */
+ 
 }
 
 .cont::before {
@@ -82,6 +83,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: -90px;
+  
 }
 
 .bright {
@@ -723,7 +725,9 @@ input[type="submit"]:hover {
   .Center{
     background:#130d2e;
   }
-
+.fixa{
+  font-size: 35px !important;
+}
 
 }
 
@@ -767,6 +771,27 @@ input[type="submit"]:hover {
     width: 100px;
     height: 100px;
   }
+  .lastformtext {
+    color: white;
+    font-size: 15px;
+  }
+  .kk{
+    font-size: 21px;
+  }
+  .bg{
+    font-size: 15px;
+
+  }
+  .image2{
+    width: 250px;
+    height: 250px;
+  }
+  .signature{
+    font-size: 28px;
+  }
+  .heading-8{
+    font-size: 22px !important;
+  }
 }
 
 @media (max-width: 400px) {
@@ -795,6 +820,17 @@ input[type="submit"]:hover {
   .subheading1{
     font-size: smaller;
   }
+  .fixa{
+    font-size: 30px !important;
+  }  .heading-8{
+    font-size: 20px !important;
+  }
+  .lastformtext{
+    font-size: 14px;
+  }
+  .smalll{
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 350px) {
@@ -822,6 +858,12 @@ input[type="submit"]:hover {
   }
   .nav-link {
     margin-left: 36px !important;
+  }
+  .lastformtext{
+    font-size: 12px;
+  }
+  .smalll{
+    font-size: 14px;
   }
 }
 

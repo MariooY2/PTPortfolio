@@ -68,7 +68,7 @@ function Programs() {
         <div className="wi">
           <hr></hr>
           <hr></hr>
-         <h1 className="white bolder">FITNESS PROGRAMS</h1>
+         <h1 className="white bolder kk">FITNESS PROGRAMS</h1>
         </div>
         <div className="container8">
         <div className="container5">
