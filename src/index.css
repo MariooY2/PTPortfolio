@@ -25,6 +25,7 @@ html {
 .subheading1{
   font-size: 30px;
   text-transform: uppercase;
+  margin-bottom: 12px !important;
 }
 .subheading2{
   display: block;
@@ -33,12 +34,7 @@ html {
 .navbar {
   margin-top: -7px;
 }
-.name{
-  text-transform: uppercase;
-  display: block;
-  font-style: italic;
-  letter-spacing: 1px;
-}
+
 
 .navbar-brand img {
   padding-bottom: 4px;
@@ -96,10 +92,14 @@ html {
 }
 
 .name {
-  font-size: 50px;
   color: red; /* Or the color used in your design */
   margin-bottom: 10px;
   font-weight: 900;
+  text-transform: uppercase;
+  font-size: 80px !important;
+  display: block;
+  font-style: italic;
+  letter-spacing: 1px;
 }
 
 .body-content {
@@ -129,7 +129,7 @@ html {
 
 .contactme {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 50px;
   margin: 5px;
   background-color: #f2f2f2; /* Example background color */
   color: #333; /* Example text color */
@@ -292,6 +292,7 @@ html {
   width: 50%;
   
 }
+
 .bolder {
   font-weight: 900;
 }
@@ -366,11 +367,11 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh; /* This ensures that the form is centered vertically in the viewport */
+  min-height: 100vh; /* This ensures that the form is centered vertically in the viewport */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #130d2e;
   border-radius: 0px 70px 70px 0px;
-  flex:1
+  
 }
 
 .signature {
@@ -454,7 +455,7 @@ width: 100%;
 
 form {
   margin-top: 0px;
-  width: 90%;
+  width: 80%;
   max-width: 500px; /* Maximum width of the form */
   background: #fff;
   padding: 2px;
@@ -495,16 +496,88 @@ input[type="submit"]:hover {
 
 }
 
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.cover {
+  position: relative;
+  background-image: url("Gallery/DEADLIFT.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit; /* Inherit background image from the parent */
+  filter: brightness(30%); /* Adjust the brightness value */
+}
+
+.cover-text {
+  max-width: 600px; /* Adjust as needed */
+  z-index: 4;
+}
+
+.cover h1 {
+  font-size: 2.5em; /* Adjust as needed */
+  margin-bottom: 10px;
+}
+
+.cover p {
+  font-size: 1.2em; /* Adjust as needed */
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Add media queries for responsiveness */
 
 @media (max-width: 3500px) {
   .cont::before {
     background-position-y: -970px; /* Adjust position for smaller screens */
+  }.form-container {
+   
+    min-height: 70vh; /* This ensures that the form is centered vertically in the viewport */
+    
   }
 }
 @media (max-width: 2500px) {
   .cont::before {
     background-position-y: -900px; /* Adjust position for smaller screens */
+  }
+  .form-container {
+   
+    min-height: 70vh; /* This ensures that the form is centered vertically in the viewport */
+    
   }
 }
 
@@ -512,11 +585,21 @@ input[type="submit"]:hover {
   .cont::before {
     background-position-y: -830px; /* Adjust position for smaller screens */
   }
+  .form-container {
+   
+    min-height: 70vh; /* This ensures that the form is centered vertically in the viewport */
+    
+  }
 }
 
 @media (max-width: 1600px) {
   .cont::before {
     background-position-y: -720px; /* Adjust position for smaller screens */
+  }
+  .form-container {
+   
+    min-height: 100vh; /* This ensures that the form is centered vertically in the viewport */
+    
   }
 }
 @media (max-width: 1400px) {
@@ -576,7 +659,7 @@ input[type="submit"]:hover {
   }
 
   .name {
-    font-size: 35px;
+    font-size: 60px !important;
   }
   .subheading1{
    font-size: 20px;
@@ -627,7 +710,7 @@ input[type="submit"]:hover {
   }
 
   .name {
-    font-size: 30px;
+    font-size: 55px !important;
   }
   .subheading1{
     font-size: 19px;
@@ -660,9 +743,6 @@ input[type="submit"]:hover {
   }
 
 
-  .name {
-    font-size: 25px;
-  }
   .subheading1{
     font-size: 18px;
   }
@@ -682,6 +762,7 @@ input[type="submit"]:hover {
     font-size: 18px;
   }
 
+
 }
 
 @media (max-width: 500px) {
@@ -698,9 +779,7 @@ input[type="submit"]:hover {
   .centerit {
     margin-top: -60px;
   }
-  .name {
-    font-size: 22px;
-  }
+
   .subheading1{
     font-size: 15px;
   }
@@ -736,9 +815,7 @@ input[type="submit"]:hover {
     background-position-y: -200px; /* Adjust position for smaller screens */
     background-position-x: 0px;
   }
-  .name {
-    font-size: 19px;
-  }
+
   .subheading1{
     font-size: 15px;
   }
@@ -761,9 +838,7 @@ input[type="submit"]:hover {
   .nav-link {
     margin-left: 26px !important;
   }
-  .name {
-    font-size: 17px;
-  }
+
   .subheading1{
     font-size: 14px;
   }
@@ -776,16 +851,13 @@ input[type="submit"]:hover {
     font-size: 15px;
   }
   .kk{
-    font-size: 21px;
+    font-size: 25px !important;
   }
   .bg{
     font-size: 15px;
 
   }
-  .image2{
-    width: 250px;
-    height: 250px;
-  }
+
   .signature{
     font-size: 28px;
   }
@@ -812,11 +884,9 @@ input[type="submit"]:hover {
     margin-top: -45px;
   }
   form {
-    width: 95%;
+    width: 75%;
   }
-  .name {
-    font-size: 17px;
-  }
+
   .subheading1{
     font-size: smaller;
   }
@@ -854,7 +924,7 @@ input[type="submit"]:hover {
     margin-left: 30px;
   }
   form {
-    width: 85%;
+    width: 70%;
   }
   .nav-link {
     margin-left: 36px !important;

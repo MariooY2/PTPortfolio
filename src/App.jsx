@@ -1,5 +1,6 @@
 import Nav from "./assets/Nav";
 import Cover from "./assets/cover";
+import Cover1 from "./assets/cover1";
 import Body from "./assets/about";
 import Programs from "./assets/programs";
 import ContactUs from "./assets/forms";
@@ -9,7 +10,8 @@ function App() {
   return (
     <div className="widw">
       <Nav />
-      <Cover />
+     {/* <Cover /> */}
+     <Cover1 />
       <CallButton/>
       <Body />
       <Programs />
