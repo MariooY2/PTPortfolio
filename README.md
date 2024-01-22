@@ -1,1 +1,2 @@
-#React + Vite Personal Trainer Portfolio
+React + Vite 
+Personal Trainer Portfolio
