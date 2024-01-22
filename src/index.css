@@ -505,7 +505,8 @@ body, html {
 }
 
 .cover {
-  position: relative;  
+  position: relative;
+  background-image: url("public/Gallery/r1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -524,10 +525,7 @@ body, html {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url("Gallery/r1.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: inherit; /* Inherit background image from the parent */
   filter: brightness(30%); /* Adjust the brightness value */
 }
 
