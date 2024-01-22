@@ -762,7 +762,11 @@ body, html {
     font-size: 18px;
   }
 
-
+  .form-container {
+   
+    min-height: 90vh; /* This ensures that the form is centered vertically in the viewport */
+    
+  }
 }
 
 @media (max-width: 500px) {
