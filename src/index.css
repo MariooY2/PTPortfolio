@@ -506,7 +506,7 @@ body, html {
 
 .cover {
   position: relative;
-  background-image: url("public/Gallery/r1.jpg");
+  background-image: url("/public/Gallery/test2.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
